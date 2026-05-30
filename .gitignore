@@ -1,0 +1,54 @@
+# .gitignore
+# Thư mục
+__pycache__/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# File
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Thư mục output
+output/*.jpg
+output/*.avi
+output/*.png
+
+# Thư mục log (giữ folder nhưng ignore log files)
+logs/*.log
+
+# Virtual env
+venv/
+ENV/
+env/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
